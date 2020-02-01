@@ -1,10 +1,7 @@
 import React, { Component, Fragment } from 'react'
-// import { browserHistory } from "react-router";
 import ContactList from "./components/contactList";
 import AddContact from "./components/addContact";
 import Navbar from "./components/navbar";
-// import history from "./history";
-// import {  } from 'react-router-dom'
 
 import {
   BrowserRouter as Router,

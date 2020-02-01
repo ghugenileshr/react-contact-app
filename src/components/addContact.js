@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
-// import {  Redirect } from "react-router-dom";
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
-import { withRouter, Redirect } from 'react-router-dom';
-import { connectRouter,push } from 'connected-react-router';
-import history from "../history";
 class AddContact extends Component {
 
     constructor(props) {
